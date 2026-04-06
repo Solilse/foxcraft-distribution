@@ -255,6 +255,20 @@
             "url": "https://Solilse.github.io/foxcraft-distribution/mods/entity_texture_features_fabric_1.20.4-6.2.9.jar"
           }
         },
+                {
+          "id": "maven.modrinth:fancymenu_fabric_3.3.2_MC_1.20.4.jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2884076,
+            "MD5": "E2D016DAA48FE71FBE72A21C5BCB8937",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/fancymenu_fabric_3.3.2_MC_1.20.4.jar"
+          }
+        },
         {
           "id": "maven.modrinth:fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
