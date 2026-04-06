@@ -255,7 +255,7 @@
             "url": "https://Solilse.github.io/foxcraft-distribution/mods/entity_texture_features_fabric_1.20.4-6.2.9.jar"
           }
         },
-                {
+        {
           "id": "maven.modrinth:fancymenu_fabric_3.3.2_MC_1.20.4.jar",
           "name": "FancyMenu",
           "type": "FabricMod",
@@ -267,6 +267,20 @@
             "size": 2884076,
             "MD5": "E2D016DAA48FE71FBE72A21C5BCB8937",
             "url": "https://Solilse.github.io/foxcraft-distribution/mods/fancymenu_fabric_3.3.2_MC_1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:konkrete_fabric_1.9.2_MC_1.20.4.jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 785596,
+            "MD5": "5207D60A19DB3A98D3BE1C8CAE732173",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/konkrete_fabric_1.9.2_MC_1.20.4.jar"
           }
         },
         {
