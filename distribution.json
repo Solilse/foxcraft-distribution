@@ -298,6 +298,16 @@
           }
         },
         {
+          "id": "foxcraft:config",
+          "name": "FancyMenu Config",
+          "type": "File",
+          "artifact": {
+            "size": 2211,
+            "MD5": "1A351ECF22A25A31D72DAE3E4809E8C0",
+            "url": "https://Solilse.github.io/foxcraft-distribution/config.zip"
+          }
+        },
+        {
           "id": "maven.modrinth:fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
