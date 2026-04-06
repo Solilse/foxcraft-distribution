@@ -284,6 +284,20 @@
           }
         },
         {
+          "id": "maven.modrinth:melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 39696,
+            "MD5": "8095B46D324586B3CF3D2F5BFFE8B417",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"
+          }
+        },
+        {
           "id": "maven.modrinth:fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
