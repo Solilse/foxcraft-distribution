@@ -294,7 +294,7 @@
           "artifact": {
             "size": 39696,
             "MD5": "8095B46D324586B3CF3D2F5BFFE8B417",
-            "url": "https://Solilse.github.io/foxcraft-distribution/mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"     
           }
         },
         {
@@ -305,6 +305,20 @@
             "size": 2211,
             "MD5": "1A351ECF22A25A31D72DAE3E4809E8C0",
             "url": "https://Solilse.github.io/foxcraft-distribution/config.zip"
+          }
+        },
+        {
+          "id": "maven.modrinth:modmenu-9.2.0.jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 963019,
+            "MD5": "F8008EE81DD401A441BD20F41E43FCA2",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/modmenu-9.2.0.jar"     
           }
         },
         {
