@@ -1,191 +1,271 @@
 {
-    "version": "2.0.0",
-    "rss": "https://github.com/Solilse/foxcraft-distribution",
-    "discord": {
-        "clientId": "1086936373057040395"
-    },
-    "servers": [
+  "version": "1.0.0",
+  "rss": "https://Solilse.github.io/foxcraft-distribution/rss.xml",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageText": "FoxCraft",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "FoxCraft-1.20.4",
+      "name": "FoxCraft (Minecraft 1.20.4)",
+      "description": "FoxCraft Running Minecraft 1.20.4 (Fabric v0.15.6)",
+      "icon": "https://Solilse.github.io/foxcraft-distribution/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "FoxCraft",
+        "largeImageText": "FoxCraft",
+        "largeImageKey": "foxcraft"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
         {
-            "id": "FoxCraft",
-            "name": "FoxCraft",
-            "description": "FoxCraft Fabric 1.20.4",
-            "icon": "https://Solilse.github.io/foxcraft-distribution/icon.png",
-            "version": "1.20.4",
-            "address": "localhost:25565",
-            "minecraftVersion": "1.20.4",
-            "discord": {
-                "shortId": "FoxCraft",
-                "largeImageText": "FoxCraft",
-                "largeImage": "foxcraft"
+          "id": "net.fabricmc:fabric-loader:0.15.6",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1321135,
+            "MD5": "744dbc7c568d7e782e6616637a14f6b3",
+            "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.6",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "6052ebb6acbba734c83fd3a09e67d31e",
+                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
+              }
             },
-            "mainServer": true,
-            "autoconnect": false,
-            "modules": [
-                {
-                    "id": "net.fabricmc:fabric-loader:0.15.6",
-                    "name": "Fabric Loader",
-                    "type": "Fabric",
-                    "artifact": {
-                        "size": 1903521,
-                        "MD5": "placeholder",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:iris:1.7.2+mc1.20.4",
-                    "name": "Iris Shaders",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 2703697,
-                        "MD5": "FA3647D1891A719B268C636236D989C2",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/iris-1.7.2+mc1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:sodium:sodium-fabric-0.5.8+mc1.20.4",
-                    "name": "Sodium",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 949085,
-                        "MD5": "D7753A50CA37F50ABB10465A9A425DAC",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/sodium-fabric-0.5.8+mc1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:lithium:lithium-fabric-mc1.20.4-0.12.1",
-                    "name": "Lithium",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 716022,
-                        "MD5": "83DA6729D5402DC42ECA740A96F97346",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/lithium-fabric-mc1.20.4-0.12.1.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:ferrite-core:ferritecore-6.0.3-fabric",
-                    "name": "FerriteCore",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 125100,
-                        "MD5": "A684CFCDBC32EDDAF78782FB4E5762F4",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/ferritecore-6.0.3-fabric.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:entityculling:entityculling-fabric-1.8.2-mc1.20.4",
-                    "name": "Entity Culling",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 470518,
-                        "MD5": "C98FE85EC56D34725F1972057F898E38",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/entityculling-fabric-1.8.2-mc1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:immediatelyfast:ImmediatelyFast-Fabric-1.5.1+1.20.4",
-                    "name": "ImmediatelyFast",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 242574,
-                        "MD5": "351DCA2FF05CBC00C9A32EB45976CB73",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/ImmediatelyFast-Fabric-1.5.1+1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:xaeros-minimap:Xaeros_Minimap_25.2.10_Fabric_1.20.4",
-                    "name": "Xaero's Minimap",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 1742943,
-                        "MD5": "12DD613265F506CD8FBC3B0EBF17A3B6",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/Xaeros_Minimap_25.2.10_Fabric_1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:xaeros-world-map:XaerosWorldMap_1.39.12_Fabric_1.20.4",
-                    "name": "Xaero's World Map",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 977067,
-                        "MD5": "E3D3D2A67B50CD53BD4ACB315D5C33C5",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/XaerosWorldMap_1.39.12_Fabric_1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:entity-model-features:entity_model_features_fabric_1.20.4-2.4.1",
-                    "name": "Entity Model Features",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 443556,
-                        "MD5": "0869E170EF5AE4F0784620484B717115",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/entity_model_features_fabric_1.20.4-2.4.1.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:entity-texture-features:entity_texture_features_fabric_1.20.4-6.2.9",
-                    "name": "Entity Texture Features",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 651986,
-                        "MD5": "E3EE94839F9C271ED7B80D42B8A04FF0",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/entity_texture_features_fabric_1.20.4-6.2.9.jar"
-                    }
-                },
-                {
-                    "id": "maven.modrinth:fabric-api:fabric-api-0.97.3+1.20.4",
-                    "name": "Fabric API",
-                    "type": "FabricMod",
-                    "required": {
-                        "value": true,
-                        "def": true
-                    },
-                    "artifact": {
-                        "size": 2187523,
-                        "MD5": "03ED4AE378E68F42CCF05DBE97007793",
-                        "url": "https://Solilse.github.io/foxcraft-distribution/mods/fabric-api-0.97.3+1.20.4.jar"
-                    }
-                }
-            ]
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1451874,
+                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "maven.modrinth:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris Shaders",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2703697,
+            "MD5": "fa3647d1891a719b268c636236d989c2",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/iris-1.7.2+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 949085,
+            "MD5": "d7753a50ca37f50abb10465a9a425dac",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/sodium-fabric-0.5.8+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:lithium:mc1.20.4-0.12.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 716022,
+            "MD5": "83da6729d5402dc42eca740a96f97346",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/lithium-fabric-mc1.20.4-0.12.1.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:ferrite-core:6.0.3-fabric@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 125100,
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/ferritecore-6.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:entityculling:1.8.2-mc1.20.4@jar",
+          "name": "Entity Culling",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 470518,
+            "MD5": "c98fe85ec56d34725f1972057f898e38",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/entityculling-fabric-1.8.2-mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:immediatelyfast:1.5.1+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 242574,
+            "MD5": "351dca2ff05cbc00c9a32eb45976cb73",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/ImmediatelyFast-Fabric-1.5.1+1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:xaeros-minimap:25.2.10_Fabric_1.20.4@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1742943,
+            "MD5": "12dd613265f506cd8fbc3b0ebf17a3b6",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/Xaeros_Minimap_25.2.10_Fabric_1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:xaeros-world-map:1.39.12_Fabric_1.20.4@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 977067,
+            "MD5": "e3d3d2a67b50cd53bd4acb315d5c33c5",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/XaerosWorldMap_1.39.12_Fabric_1.20.4.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:entity-model-features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 443556,
+            "MD5": "0869e170ef5ae4f0784620484b717115",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/entity_model_features_fabric_1.20.4-2.4.1.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:entity-texture-features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 651986,
+            "MD5": "e3ee94839f9c271ed7b80d42b8a04ff0",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/entity_texture_features_fabric_1.20.4-6.2.9.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:fabric-api:0.97.3+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "Library",
+          "artifact": {
+            "size": 2187523,
+            "MD5": "03ed4ae378e68f42ccf05dbe97007793",
+            "url": "https://Solilse.github.io/foxcraft-distribution/mods/fabric-api-0.97.3+1.20.4.jar"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
