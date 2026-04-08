@@ -281,6 +281,127 @@
           }
         },
         {
+    "id": "fancymenu_leave1.png",
+    "name": "FancyMenu Asset - leave1",
+    "type": "File",
+    "artifact": {
+        "size": 263,
+        "MD5": "3ef1f2ca5cf7521fab3ba4cb6ff70900",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/leave1.png",
+        "path": "config/fancymenu/assets/leave1.png"
+    }
+},
+{
+    "id": "fancymenu_leave2.png",
+    "name": "FancyMenu Asset - leave2",
+    "type": "File",
+    "artifact": {
+        "size": 248,
+        "MD5": "57101621ca41c173c0a505f677ce0420",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/leave2.png",
+        "path": "config/fancymenu/assets/leave2.png"
+    }
+},
+{
+    "id": "fancymenu_leave3.png",
+    "name": "FancyMenu Asset - leave3",
+    "type": "File",
+    "artifact": {
+        "size": 257,
+        "MD5": "fc760c2b43bda5022eca266427c8d63b",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/leave3.png",
+        "path": "config/fancymenu/assets/leave3.png"
+    }
+},
+{
+    "id": "fancymenu_paysage2.png",
+    "name": "FancyMenu Asset - paysage2",
+    "type": "File",
+    "artifact": {
+        "size": 5153,
+        "MD5": "e983115d6af008ef146d762c65fb9826",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/paysage2.png",
+        "path": "config/fancymenu/assets/paysage2.png"
+    }
+},
+{
+    "id": "fancymenu_play_b.png",
+    "name": "FancyMenu Asset - play_b",
+    "type": "File",
+    "artifact": {
+        "size": 626,
+        "MD5": "cee80cb2d3251fec3526e7913b249389",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/play_b.png",
+        "path": "config/fancymenu/assets/play_b.png"
+    }
+},
+{
+    "id": "fancymenu_play_d.png",
+    "name": "FancyMenu Asset - play_d",
+    "type": "File",
+    "artifact": {
+        "size": 736,
+        "MD5": "c34f7189de818d029cca3fe00e7bc4d3",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/play_d.png",
+        "path": "config/fancymenu/assets/play_d.png"
+    }
+},
+{
+    "id": "fancymenu_play_p.png",
+    "name": "FancyMenu Asset - play_p",
+    "type": "File",
+    "artifact": {
+        "size": 638,
+        "MD5": "f0dc67f5200c94bcacae902dc6141e87",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/play_p.png",
+        "path": "config/fancymenu/assets/play_p.png"
+    }
+},
+{
+    "id": "fancymenu_set1.png",
+    "name": "FancyMenu Asset - set1",
+    "type": "File",
+    "artifact": {
+        "size": 316,
+        "MD5": "b0c148935b555811a19b2dcf606baee5",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/set1.png",
+        "path": "config/fancymenu/assets/set1.png"
+    }
+},
+{
+    "id": "fancymenu_set2.png",
+    "name": "FancyMenu Asset - set2",
+    "type": "File",
+    "artifact": {
+        "size": 303,
+        "MD5": "095b0d91b43c0eb317361346f0ff831e",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/set2.png",
+        "path": "config/fancymenu/assets/set2.png"
+    }
+},
+{
+    "id": "fancymenu_set3.png",
+    "name": "FancyMenu Asset - set3",
+    "type": "File",
+    "artifact": {
+        "size": 292,
+        "MD5": "e46c1f7c0fea98439a78d18e575f77a0",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/set3.png",
+        "path": "config/fancymenu/assets/set3.png"
+    }
+},
+{
+    "id": "fancymenu_tiltle.png",
+    "name": "FancyMenu Asset - tiltle",
+    "type": "File",
+    "artifact": {
+        "size": 634,
+        "MD5": "da30b8eb9e0d7ec05a7e9af106cf1b75",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/assets/tiltle.png",
+        "path": "config/fancymenu/assets/tiltle.png"
+    }
+},
+        {
           "id": "maven.modrinth:konkrete_fabric_1.9.2_MC_1.20.4.jar",
           "name": "Konkrete",
           "type": "FabricMod",
