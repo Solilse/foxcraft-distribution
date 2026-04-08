@@ -449,7 +449,95 @@
             "MD5": "03ed4ae378e68f42ccf05dbe97007793",
             "url": "https://Solilse.github.io/foxcraft-distribution/mods/fabric-api-0.97.3+1.20.4.jar"
           }
-        }
+        },
+        {
+    "id": "fancymenu_customizablemenus.txt",
+    "name": "FancyMenu - customizablemenus",
+    "type": "File",
+    "artifact": {
+        "size": 55,
+        "MD5": "7f493e2abc148fb67ac97306b080cfdb",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/customizablemenus.txt",
+        "path": "config/fancymenu/customizablemenus.txt"
+    }
+},
+{
+    "id": "fancymenu_custom_gui_screens.txt",
+    "name": "FancyMenu - custom_gui_screens",
+    "type": "File",
+    "artifact": {
+        "size": 51,
+        "MD5": "106e52948415f0879c53304f50783b28",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/custom_gui_screens.txt",
+        "path": "config/fancymenu/custom_gui_screens.txt"
+    }
+},
+{
+    "id": "fancymenu_legacy_checklist.txt",
+    "name": "FancyMenu - legacy_checklist",
+    "type": "File",
+    "artifact": {
+        "size": 42,
+        "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/legacy_checklist.txt",
+        "path": "config/fancymenu/legacy_checklist.txt"
+    }
+},
+{
+    "id": "fancymenu_options.txt",
+    "name": "FancyMenu - options",
+    "type": "File",
+    "artifact": {
+        "size": 1799,
+        "MD5": "ae1c47c99a09b9c1b495218b9c344f01",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/options.txt",
+        "path": "config/fancymenu/options.txt"
+    }
+},
+{
+    "id": "fancymenu_user_variables.db",
+    "name": "FancyMenu - user_variables",
+    "type": "File",
+    "artifact": {
+        "size": 23,
+        "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/user_variables.db",
+        "path": "config/fancymenu/user_variables.db"
+    }
+},
+{
+    "id": "fancymenu_element_layer_control.lewidget",
+    "name": "FancyMenu - element_layer_control widget",
+    "type": "File",
+    "artifact": {
+        "size": 197,
+        "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+        "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+    }
+},
+{
+    "id": "fancymenu_ui_theme_dark.json",
+    "name": "FancyMenu - UI Theme Dark",
+    "type": "File",
+    "artifact": {
+        "size": 4133,
+        "MD5": "1fc916f1d20b24c5f0d2d138d19c49a4",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/ui_themes/dark.json",
+        "path": "config/fancymenu/ui_themes/dark.json"
+    }
+},
+{
+    "id": "fancymenu_ui_theme_light.json",
+    "name": "FancyMenu - UI Theme Light",
+    "type": "File",
+    "artifact": {
+        "size": 4135,
+        "MD5": "adfba137b3d62c50a5186a4f6523a72a",
+        "url": "https://Solilse.github.io/foxcraft-distribution/config/fancymenu/ui_themes/light.json",
+        "path": "config/fancymenu/ui_themes/light.json"
+    }
+}
       ]
     }
   ]
