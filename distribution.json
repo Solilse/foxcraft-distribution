@@ -440,20 +440,6 @@
           }
         },
         {
-          "id": "maven.modrinth:modmenu-9.2.0.jar",
-          "name": "Mod Menu",
-          "type": "FabricMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 963019,
-            "MD5": "F8008EE81DD401A441BD20F41E43FCA2",
-            "url": "https://Solilse.github.io/foxcraft-distribution/mods/modmenu-9.2.0.jar"     
-          }
-        },
-        {
           "id": "maven.modrinth:fabric-api:0.97.3+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
