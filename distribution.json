@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "https://Solilse.github.io/foxcraft-distribution/rss.xml",
   "discord": {
-    "clientId": "1086936373057040395",
-    "smallImageText": "FoxCraft",
-    "smallImageKey": "big"
+    "clientId": "1496446104122949724",
+    "smallImageText": "FoxCraft Launcher",
+    "smallImageKey": "foxcraft_logo"
   },
   "servers": [
     {
