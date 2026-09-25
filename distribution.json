@@ -14,7 +14,7 @@
       "description": "FoxCraft Running Minecraft 1.20.4 (Fabric v0.15.6)",
       "icon": "https://Solilse.github.io/foxcraft-distribution/icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "192.168.1.137:25565",
       "minecraftVersion": "1.20.4",
       "discord": {
         "shortId": "FoxCraft",
